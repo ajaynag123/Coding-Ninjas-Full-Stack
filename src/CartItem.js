@@ -11,6 +11,7 @@ class CartItem extends React.Component {
           <img
             style={{ height: 110, width: 110, borderRadius: 5, background: '#ccc' }}
             src={product.img}
+            alt="product"
           />
         </div>
         <div className="right-block">
