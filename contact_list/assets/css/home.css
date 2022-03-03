@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+}
+
+.contact-list-container{
+  padding: 0;
+  list-style: none;
+}
+
+.contact{
+  padding: 3px 10px;
+  border: 1px solid white;
+  background-color: aqua;
+  box-shadow: 1px 1px 1px 1px black;
+  color: white;
+  display: flex;
+}
+
+.contact .details{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.contact .delete-button{
+  width: 10%;
+  padding: 3px;
+}
